@@ -153,7 +153,6 @@ createjs.Sound.registerSound('static/sounds/ding.mp3', 'ding')
 
 var pokemonTypes = [i8ln('unset'), i8ln('Normal'), i8ln('Fighting'), i8ln('Flying'), i8ln('Poison'), i8ln('Ground'), i8ln('Rock'), i8ln('Bug'), i8ln('Ghost'), i8ln('Steel'), i8ln('Fire'), i8ln('Water'), i8ln('Grass'), i8ln('Electric'), i8ln('Psychic'), i8ln('Ice'), i8ln('Dragon'), i8ln('Dark'), i8ln('Fairy')]
 var genderType = ['♂', '♀', '⚲']
-var forms = ['unset', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '!', '?', i8ln('Normal'), i8ln('Sunny'), i8ln('Rainy'), i8ln('Snowy'), i8ln('Normal'), i8ln('Attack'), i8ln('Defense'), i8ln('Speed'), '1', '2', '3', '4', '5', '6', '7', '8', '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Alola'), '', i8ln('Frost'), i8ln('Fan'), i8ln('Mow'), i8ln('Wash'), i8ln('Heat'), i8ln('Plant'), i8ln('Sandy'), i8ln('Trash'), i8ln('Altered'), i8ln('Origin'), i8ln('Sky'), i8ln('Land'), i8ln('Overcast'), i8ln('Sunny'), i8ln('West sea'), i8ln('East sea'), i8ln('West sea'), i8ln('East sea'), i8ln('Normal'), i8ln('Fighting'), i8ln('Flying'), i8ln('Poison'), i8ln('Ground'), i8ln('Rock'), i8ln('Bug'), i8ln('Ghost'), i8ln('Steel'), i8ln('Fire'), i8ln('Water'), i8ln('Grass'), i8ln('Electric'), i8ln('Psychic'), i8ln('Ice'), i8ln('Dragon'), i8ln('Dark'), i8ln('Fairy'), i8ln('Plant'), i8ln('Sandy'), i8ln('Trash'), '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', i8ln('Armored'), i8ln('A-intro'), '', i8ln('Red Striped'), i8ln('Blue Striped'), i8ln('Standard'), i8ln('Zen'), i8ln('Incarnate'), i8ln('Therian'), i8ln('Incarnate'), i8ln('Therian'), i8ln('Incarnate'), i8ln('Therian'), i8ln('Normal'), i8ln('Black'), i8ln('White'), i8ln('Ordinary'), i8ln('Resolute'), i8ln('Aria'), i8ln('Pirouette'), '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', i8ln('Spring'), i8ln('Summer'), i8ln('Autumn'), i8ln('Winter'), i8ln('Spring'), i8ln('Summer'), i8ln('Autumn'), i8ln('Winter'), i8ln('Normal'), i8ln('Shock'), i8ln('Burn'), i8ln('Chill'), i8ln('Douse'), '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 var cpMultiplier = [0.094, 0.16639787, 0.21573247, 0.25572005, 0.29024988, 0.3210876, 0.34921268, 0.37523559, 0.39956728, 0.42250001, 0.44310755, 0.46279839, 0.48168495, 0.49985844, 0.51739395, 0.53435433, 0.55079269, 0.56675452, 0.58227891, 0.59740001, 0.61215729, 0.62656713, 0.64065295, 0.65443563, 0.667934, 0.68116492, 0.69414365, 0.70688421, 0.71939909, 0.7317, 0.73776948, 0.74378943, 0.74976104, 0.75568551, 0.76156384, 0.76739717, 0.7731865, 0.77893275, 0.7846369, 0.79030001]
 var throwType = JSON.parse('{"10": "Nice", "11": "Great", "12": "Excellent"}')
 var weatherLayerGroup = new L.LayerGroup()
@@ -161,12 +160,14 @@ var weatherArray = []
 var weatherPolys = []
 var weatherMarkers = []
 var weatherColors
+var s2Colors
 
 var S2
 var exLayerGroup = new L.LayerGroup()
 var gymLayerGroup = new L.LayerGroup()
 var stopLayerGroup = new L.LayerGroup()
 var scanAreaGroup = new L.LayerGroup()
+var liveScanGroup = new L.LayerGroup()
 var scanAreas = []
 var nestLayerGroup = new L.LayerGroup()
 /*
@@ -185,7 +186,7 @@ var notifyNoIvTitle = '<pkm>'
  <dist>  - disappear time
  <udist> - time until disappear
  */
-var notifyText = 'disappears at <dist> (<udist>)'
+var notifyText = i8ln('disappears at') + ' <dist> (<udist>)'
 
 var OpenStreetMapProvider = window.GeoSearch.OpenStreetMapProvider
 var searchProvider = new OpenStreetMapProvider()
@@ -358,7 +359,7 @@ function initMap() { // eslint-disable-line no-unused-vars
         worldCopyJump: true,
         updateWhenZooming: false,
         updateWhenIdle: true,
-        layers: [weatherLayerGroup, exLayerGroup, gymLayerGroup, stopLayerGroup, scanAreaGroup, nestLayerGroup]
+        layers: [weatherLayerGroup, exLayerGroup, gymLayerGroup, stopLayerGroup, scanAreaGroup, liveScanGroup, nestLayerGroup]
     })
 
     setTileLayer(Store.get('map_style'))
@@ -391,6 +392,7 @@ function initMap() { // eslint-disable-line no-unused-vars
     map.addLayer(markers)
     markersnotify = L.layerGroup().addTo(map)
     map.on('zoom', function () {
+        updateS2Overlay()
         if (storeZoom === true) {
             Store.set('zoomLevel', map.getZoom())
         } else {
@@ -414,7 +416,7 @@ function initMap() { // eslint-disable-line no-unused-vars
     })
 
     map.createPane('portals')
-    map.getPane('portals').style.zIndex = 450
+    map.getPane('portals').style.zIndex = 300
     createMyLocationButton()
     initSidebar()
 
@@ -446,6 +448,7 @@ function initMap() { // eslint-disable-line no-unused-vars
 
     map.on('click', function (e) {
         if ($('.submit-on-off-button').hasClass('on')) {
+            updateS2Overlay()
             $('.submitLatitude').val(e.latlng.lat)
             $('.submitLongitude').val(e.latlng.lng)
             $('.ui-dialog').remove()
@@ -673,6 +676,21 @@ function createLocationMarker() {
     return locationMarker
 }
 
+function pointInPolygon(x, y, cornersX, cornersY) {
+    var i
+    var j = cornersX.length - 1
+    var odd = 0
+    var pX = cornersX
+    var pY = cornersY
+    for (i = 0; i < cornersX.length; i++) {
+        if (((pY[i] < y && pY[j] >= y) || (pY[j] < y && pY[i] >= y)) && (pX[i] <= x || pX[j] <= x)) {
+            odd ^= (pX[i] + (y - pY[i]) * (pX[j] - pX[i]) / (pY[j] - pY[i])) < x
+        }
+        j = i
+    }
+    return odd === 1
+}
+
 function showS2Cells(level, style) {
     const bounds = map.getBounds()
     const swPoint = bounds.getSouthWest()
@@ -684,8 +702,127 @@ function showS2Cells(level, style) {
 
     function addPoly(cell) {
         const vertices = cell.getCornerLatLngs()
-        const poly = L.polygon(vertices,
-            Object.assign({color: 'blue', opacity: 0.5, weight: 2, fillOpacity: 0.0, dashArray: '2 6', dashOffset: '0'}, style))
+        var s2Lats = []
+        var s2Lons = []
+        for (let j = 0; j < vertices.length; j++) {
+            s2Lats[j] = vertices[j]['lat']
+            s2Lons[j] = vertices[j]['lng']
+        }
+        var stopCount = 0
+        var sponsoredStopCount = 0
+        var sponsoredGymCount = 0
+        var gymCount = 0
+        var totalCount = 0
+
+        var possibleCandidatePoiCount = 0
+        var submittedPoiCount = 0
+        var declinedPoiCount = 0
+        var resubmittedPoiCount = 0
+        var notEligiblePoiCount = 0
+        var totalPoiCount = 0
+
+        if (cell.level === 14 || cell.level === 17) {
+            $.each(mapData.pokestops, function (key, value) {
+                if (pointInPolygon(value['latitude'], value['longitude'], s2Lats, s2Lons)) {
+                    if (value['pokestop_id'].includes('.')) {
+                        stopCount++
+                        totalCount++
+                    } else {
+                        sponsoredStopCount++
+                    }
+                }
+            })
+            $.each(mapData.gyms, function (key, value) {
+                if (pointInPolygon(value['latitude'], value['longitude'], s2Lats, s2Lons)) {
+                    if (value['gym_id'].includes('.')) {
+                        gymCount++
+                        totalCount++
+                    } else {
+                        sponsoredGymCount++
+                    }
+                }
+            })
+            $.each(mapData.pois, function (key, item) {
+                if (pointInPolygon(item['lat'], item['lon'], s2Lats, s2Lons)) {
+                    if (item['status'] === '1') {
+                        possibleCandidatePoiCount++
+                    } else if (item['status'] === '2') {
+                        submittedPoiCount++
+                    } else if (item['status'] === '3') {
+                        declinedPoiCount++
+                    } else if (item['status'] === '4') {
+                        resubmittedPoiCount++
+                    } else if (item['status'] === '5') {
+                        notEligiblePoiCount++
+                    }
+                    totalPoiCount++
+                }
+            })
+        }
+
+        var html = ''
+        var filledStyle = {color: 'black', fillOpacity: 0.0}
+        if ((cell.level === 14) && (totalCount === 1 || totalCount === 5 || totalCount === 19)) {
+            filledStyle = {fillColor: s2Colors[1], fillOpacity: 0.3}
+            html += '<div><center><b>' + i8ln('1 more Pokéstop until new gym') + '</b></center></div>'
+        } else if ((cell.level === 14) && (totalCount === 4 || totalCount === 18)) {
+            filledStyle = {fillColor: s2Colors[2], fillOpacity: 0.3}
+            html += '<div><center><b>' + i8ln('2 more Pokéstops until new gym') + '</b></center></div>'
+        } else if (cell.level === 14 && totalCount >= 20) {
+            filledStyle = {fillColor: s2Colors[3], fillOpacity: 0.3}
+            html += '<div><center><b>' + i8ln('Max amount of Gyms reached') + '</b></center></div>'
+        }
+
+        if (cell.level === 17) {
+            $.each(mapData.pokestops, function (key, value) {
+                if (pointInPolygon(value['latitude'], value['longitude'], s2Lats, s2Lons) && value['pokestop_id'].includes('.')) {
+                    filledStyle = {fillColor: s2Colors[0], fillOpacity: 0.3}
+                }
+            })
+            $.each(mapData.gyms, function (key, value) {
+                if (pointInPolygon(value['latitude'], value['longitude'], s2Lats, s2Lons) && value['gym_id'].includes('.')) {
+                    filledStyle = {fillColor: s2Colors[0], fillOpacity: 0.3}
+                }
+            })
+        }
+        const poly = L.polygon(vertices, Object.assign({color: 'black', opacity: 0.5, weight: 0.5, fillOpacity: 0.0}, style, filledStyle))
+        if (cell.level === 14) {
+            html += '<div>' + i8ln('Gyms in cell') + ': <b>' + gymCount + '</b></div>' +
+                '<div>' + i8ln('Pokéstops in cell') + ': <b>' + stopCount + '</b></div>'
+            if (sponsoredStopCount > 0) {
+                html += '<div>' + i8ln('Sponsored Pokéstops in cell') + ': <b>' + sponsoredStopCount + '</b></div>'
+            }
+            if (sponsoredGymCount > 0) {
+                html += '<div>' + i8ln('Sponsored Gyms in cell') + ': <b>' + sponsoredGymCount + '</b></div>'
+            }
+            if (sponsoredStopCount > 0 || sponsoredGymCount > 0) {
+                html += '<div>' + i8ln('Total (excluding sponsored)') + ': <b>' + totalCount + '</b></div>'
+            } else {
+                html += '<div>' + i8ln('Total') + ': <b>' + totalCount + '</b></div>'
+            }
+            if (!noPoi && totalPoiCount > 0) {
+                html += '<br>'
+                if (possibleCandidatePoiCount > 0) {
+                    html += '<div>' + i8ln('POI possible candidate') + ': <b>' + possibleCandidatePoiCount + '</b></div>'
+                }
+                if (submittedPoiCount > 0) {
+                    html += '<div>' + i8ln('POI submitted') + ': <b>' + submittedPoiCount + '</b></div>'
+                }
+                if (declinedPoiCount > 0) {
+                    html += '<div>' + i8ln('POI declined') + ': <b>' + declinedPoiCount + '</b></div>'
+                }
+                if (resubmittedPoiCount > 0) {
+                    html += '<div>' + i8ln('POI resubmitted') + ': <b>' + resubmittedPoiCount + '</b></div>'
+                }
+                if (notEligiblePoiCount > 0) {
+                    html += '<div>' + i8ln('POI not eligible') + ': <b>' + notEligiblePoiCount + '</b></div>'
+                }
+                html += '<div>' + i8ln('Total POI') + ': <b>' + totalPoiCount + '</b></div>'
+            }
+            if (!$('.submit-on-off-button').hasClass('on')) {
+                poly.bindPopup(html, {autoPan: false, closeOnClick: false, autoClose: false})
+            }
+        }
         if (cell.level === 13) {
             exLayerGroup.addLayer(poly)
         } else if (cell.level === 14) {
@@ -807,6 +944,7 @@ function initSidebar() {
     $('#direction-provider').val(Store.get('directionProvider'))
     $('#ranges-switch').prop('checked', Store.get('showRanges'))
     $('#scan-area-switch').prop('checked', Store.get('showScanPolygon'))
+    $('#scan-location-switch').prop('checked', Store.get('showScanLocation'))
     $('#nest-polygon-switch').prop('checked', Store.get('showNestPolygon'))
     $('#raid-timer-switch').prop('checked', Store.get('showRaidTimer'))
     $('#rocket-timer-switch').prop('checked', Store.get('showRocketTimer'))
@@ -944,13 +1082,9 @@ function pokemonLabel(item) {
         pokemonidStr = id
     }
 
-    if (id !== 132) {
-        $.each(types, function (index, type) {
-            typesDisplay += '<img src="static/types/' + type['type'] + '.png" style="height:20px;">'
-        })
-    } else {
-        typesDisplay += '<img src="static/types/Normal.png" style="height:20px;">'
-    }
+    $.each(types, function (index, type) {
+        typesDisplay += '<img src="static/types/' + type['type'] + '.png" style="height:20px;">'
+    })
 
     var details = ''
     if (atk != null && def != null && sta != null) {
@@ -982,19 +1116,16 @@ function pokemonLabel(item) {
 
     if (weatherBoostedCondition !== 0) {
         details +=
-            '<img style="height:30px;position:absolute;top:25px;left:0px;" src="static/weather/i-' + weatherBoostedCondition + '.png" style="height:15px;"></div>'
+            '<img style="height:25px;position:absolute;top:25px;left:5px;" src="static/weather/a-' + weatherBoostedCondition + '.png"></div>'
     }
 
     var contentstring =
         '<div><center>' +
         '<b>' + name + '</b>'
-    if (form !== null && form > 0 && forms.length > form) {
-        if (id === 132) {
-            contentstring += ' (' + idToPokemon[item['form']].name + ')'
-        } else if (forms[item['form']] !== '') {
-            contentstring += ' (' + forms[item['form']] + ')'
-        }
+    if (form !== null && form > 0 && item['form_name'] !== 'Normal') {
+        contentstring += ' (' + i8ln(item['form_name']) + ')'
     }
+
     if (gender != null) {
         contentstring += ' ' + genderType[gender - 1]
     }
@@ -1074,6 +1205,7 @@ function gymLabel(item) {
     var url = item['url']
     var form = item['form']
     var freeSlots = item['slots_available']
+    var gender = item['raid_pokemon_gender']
 
     var raidSpawned = item['raid_level'] != null
     var raidStarted = item['raid_pokemon_id'] != null
@@ -1093,12 +1225,11 @@ function gymLabel(item) {
                 cpStr = ' CP ' + item.raid_pokemon_cp
             }
             raidStr += '<br>' + item.raid_pokemon_name
-            if (form !== null && form > 0 && forms.length > form) {
-                if (item['raid_pokemon_id'] === 132) {
-                    raidStr += ' (' + idToPokemon[item['form']].name + ')'
-                } else if (forms[item['form']] !== '') {
-                    raidStr += ' (' + forms[item['form']] + ')'
-                }
+            if (form !== null && form > 0 && item['form_name'] !== 'Normal') {
+                raidStr += ' (' + i8ln(item['form_name']) + ')'
+            }
+            if (gender > 0) {
+                raidStr += ' ' + genderType[gender - 1]
             }
             raidStr += cpStr
         }
@@ -1514,7 +1645,9 @@ function pokestopLabel(item) {
             if (item['grunt_type_name'] !== '') {
                 str += '<div>' + i8ln('Grunt-Type') + ': <b>' + item['grunt_type_name'] + '</b></div>'
             }
-            str += '<div>' + i8ln('Grunt-Gender') + ': <b>' + item['grunt_type_gender'] + '</b></div>'
+            if (item['grunt_type_gender'] !== '') {
+                str += '<div>' + i8ln('Grunt-Gender') + ': <b>' + item['grunt_type_gender'] + '</b></div>'
+            }
         }
         incidentEndStr = getTimeStr(item['incident_expiration'])
         str += '<div>' + i8ln('Expiration Time') + ': <b>' + incidentEndStr +
@@ -1597,15 +1730,17 @@ function formatSpawnTime(seconds) {
 }
 
 function spawnpointLabel(item) {
-    var str = '<div><b>' + i8ln('Spawn Point') + '</b></div>'
+    var str = ''
 
     // 60 minute
     if (item.time > 1800) {
-        str += '<div>' + i8ln('Spawn time') + ': xx:' + formatSpawnTime(item.time) + '</div>' +
+        str += '<div><b>' + i8ln('Spawn Point (60)') + '</b></div>' +
+            '<div>' + i8ln('Spawn time') + ': xx:' + formatSpawnTime(item.time) + '</div>' +
             '<div>' + i8ln('Despawn time') + ': xx:' + formatSpawnTime(item.time) + '</div>'
     // 30 minute
     } else if (item.time > 0) {
-        str += '<div>' + i8ln('Spawn time') + ': xx:' + formatSpawnTime(item.time + 1800) + '</div>' +
+        str += '<div><b>' + i8ln('Spawn Point (30)') + '</b></div>' +
+        '<div>' + i8ln('Spawn time') + ': xx:' + formatSpawnTime(item.time + 1800) + '</div>' +
         '<div>' + i8ln('Despawn time') + ': xx:' + formatSpawnTime(item.time) + '</div>'
     } else {
         str += '<div>' + i8ln('Unknown spawnpoint info') + '</div>'
@@ -2256,8 +2391,7 @@ function nestLabel(item) {
             '</div>' +
             nestName + '<br />' +
             '<div>' +
-            '<img src="static/images/nest-' + item.english_pokemon_types[0].type.toLowerCase() + '.png" style="width:70px;height:auto;"/>' +
-            '<img src="' + iconpath + 'pokemon_icon_' + pokemonIdStr + '_00.png" style="position:absolute;width:65px;height:65px;top:53px;left:85px;"/>' +
+            '<img src="' + iconpath + 'pokemon_icon_' + pokemonIdStr + '_00.png" style="width:65px;height:65px;"/>' +
             '</div>' +
             pokemonAvg +
             '</center>'
@@ -2276,9 +2410,9 @@ function nestLabel(item) {
     if (!noManualNests) {
         str += '<center><div>' + i8ln('Add Nest') + ' <i class="fas fa-binoculars submit-nest" onclick="openNestModal(event);" data-id="' + item['nest_id'] + '"></i></div></center>'
     }
-    str += '<div>' +
+    str += '<center><div>' +
         '<a href="javascript:void(0)" onclick="javascript:openMapDirections(' + item.lat + ',' + item.lon + ')" title="' + i8ln('View in Maps') + '"><i class="fas fa-road"></i> ' + item.lat.toFixed(6) + ', ' + item.lon.toFixed(7) + '</a> - <a href="./?lat=' + item.lat + '&lon=' + item.lon + '&zoom=16"><i class="far fa-share-square" aria-hidden="true" style="position:relative;top:3px;left:0px;color:#26c300;font-size:20px;"></i></a>' +
-        '</div>'
+        '</div></center>'
     if ((!noWhatsappLink) && (item.pokemon_id > 0)) {
         str += '<div>' +
             '<center>' +
@@ -2321,7 +2455,7 @@ function communityLabel(item) {
         '<center><h4><div>' + item.title + '</div></h4></center>' +
         '<center><div>' + item.description.slice(0, 40) + '</div></center>'
     if (item.team_instinct === 1 || item.team_mystic === 1 || item.team_valor === 1) {
-        str += '<center><div>Welcome to Teams:<br>'
+        str += '<center><div>' + i8ln('Welcome to Teams') + ':<br>'
         if (item.team_instinct === 1) {
             str +=
             '<img src="static/images/communities/instinct.png" align"middle" style="width:18px;height: auto;"/>'
@@ -2355,7 +2489,7 @@ function communityLabel(item) {
         '</div></center>'
     }
     if (item.source === 2) {
-        str += '<center><div style="margin-bottom:5px; margin-top:5px;">' + i8ln('Join on  <a href="https://thesilphroad.com/map#18/' + item.lat + '/' + item.lon + '">thesilphroad.com</a>') + '</div></center>'
+        str += '<center><div style="margin-bottom:5px; margin-top:5px;">' + i8ln('Join on') + '<a href="https://thesilphroad.com/map#18/' + item.lat + '/' + item.lon + '">thesilphroad.com</a>' + '</div></center>'
     }
     if (!noDeleteCommunity) {
         str += '<i class="fas fa-trash-alt delete-community" onclick="deleteCommunity(event);" data-id="' + item.community_id + '"></i>'
@@ -2369,7 +2503,7 @@ function setupPortalMarker(item) {
     if (item.checked === '1') {
         var circle = {
             color: 'red',
-            radius: 10,
+            radius: 20,
             fillOpacity: 0.4,
             fillColor: '#f00',
             weight: 1,
@@ -2378,7 +2512,7 @@ function setupPortalMarker(item) {
     } else if (item.imported > yesterday) {
         circle = {
             color: 'green',
-            radius: 10,
+            radius: 20,
             fillOpacity: 0.4,
             fillColor: '#9f3',
             weight: 1,
@@ -2387,14 +2521,14 @@ function setupPortalMarker(item) {
     } else {
         circle = {
             color: 'blue',
-            radius: 10,
+            radius: 20,
             fillOpacity: 0.4,
             fillColor: '#00f',
             weight: 1,
             pane: 'portals'
         }
     }
-    var marker = L.circleMarker([item['lat'], item['lon']], circle).bindPopup(portalLabel(item), {autoPan: false, closeOnClick: false, autoClose: false})
+    var marker = L.circle([item['lat'], item['lon']], circle).bindPopup(portalLabel(item), {autoPan: false, closeOnClick: false, autoClose: false})
     markers.addLayer(marker)
 
     addListeners(marker)
@@ -2456,55 +2590,28 @@ function setupGreenhouseMarker(item) {
 }
 
 function setupPoiMarker(item) {
+    var dot = ''
     if (item.status === '1') {
-        var circle = {
-            color: '#008000',
-            radius: 10,
-            fillOpacity: 1,
-            fillColor: '#FFFFFF',
-            weight: 3,
-            pane: 'portals'
-        }
+        dot = 'dot possible-candidate'
     } else if (item.status === '2') {
-        circle = {
-            color: '#008000',
-            radius: 10,
-            fillOpacity: 1,
-            fillColor: '#008000',
-            weight: 1,
-            pane: 'portals'
-        }
+        dot = 'dot candidate-submitted'
     } else if (item.status === '3') {
-        circle = {
-            color: '#FFA500',
-            radius: 10,
-            fillOpacity: 1,
-            fillColor: '#FFA500',
-            weight: 1,
-            pane: 'portals'
-        }
+        dot = 'dot candidate-declined'
     } else if (item.status === '4') {
-        circle = {
-            color: '#008000',
-            radius: 10,
-            fillOpacity: 1,
-            fillColor: '#FFA500',
-            weight: 3,
-            pane: 'portals'
-        }
+        dot = 'dot candidate-resubmit'
     } else if (item.status === '5') {
-        circle = {
-            color: '#FF0000',
-            radius: 10,
-            fillOpacity: 1,
-            fillColor: '#FF0000',
-            weight: 1,
-            pane: 'portals'
-        }
+        dot = 'dot candidate-not-eligible'
     }
-    var marker = L.circleMarker([item['lat'], item['lon']], circle).bindPopup(poiLabel(item), {autoPan: false, closeOnClick: false, autoClose: false})
+    var html = '<div><span class="' + dot + '" style="width:20px;height:20px;"></span></div>'
+    var poiMarkerIcon = L.divIcon({
+        iconSize: [36, 48],
+        iconAnchor: [10, 16],
+        popupAnchor: [8, -10],
+        className: 'marker-poi',
+        html: html
+    })
+    var marker = L.marker([item['lat'], item['lon']], {icon: poiMarkerIcon, zIndexOffset: 1020}).bindPopup(poiLabel(item), {autoPan: false, closeOnClick: false, autoClose: false, virtual: true})
     markers.addLayer(marker)
-
     addListeners(marker)
 
     return marker
@@ -2786,8 +2893,10 @@ function deletePoi(event) { // eslint-disable-line no-unused-vars
 
 function setupSpawnpointMarker(item) {
     var color = ''
-    if (item['time'] > 0) {
+    if (item['time'] > 1800) {
         color = 'green'
+    } else if (item['time'] > 0) {
+        color = 'lightgreen'
     } else {
         color = 'red'
     }
@@ -2806,6 +2915,37 @@ function setupSpawnpointMarker(item) {
     addListeners(circle)
 
     return circle
+}
+
+function setupScanLocationMarker(item) {
+    var html = ''
+    if (item['last_seen'] < Math.round((new Date()).getTime() / 1000) - deviceOfflineAfterSeconds) {
+        html = '<img src="static/images/device-offline.png" style="width:36px;height: auto;"/>'
+    } else {
+        html = '<img src="static/images/device-online.png" style="width:36px;height: auto;"/>'
+    }
+    var icon = L.divIcon({
+        iconSize: [36, 48],
+        iconAnchor: [18, 24],
+        popupAnchor: [0, -35],
+        className: 'marker-livescan',
+        html: html
+    })
+
+    var marker = L.marker([item['latitude'], item['longitude']], {icon: icon, zIndexOffset: 1030, virtual: true}).bindPopup(liveScanLabel(item), {autoPan: false, closeOnClick: false, autoClose: false})
+    liveScanGroup.addLayer(marker)
+
+    addListeners(marker)
+
+    return marker
+}
+
+function liveScanLabel(item) {
+    var lastSeen = formatDate(new Date(item.last_seen * 1000))
+    var str = '<center><div style="font-weight:900;font-size:12px;margin-left:10px;">' + item.uuid + '</div></center>' +
+        '<center><div>' + i8ln('Current instance') + ': ' + item.instance_name + '</div></center>' +
+        '<center><div>' + i8ln('Last seen') + ': ' + lastSeen + '</div></center>'
+    return str
 }
 
 function clearSelection() {
@@ -2914,6 +3054,7 @@ function loadRawData() {
     var loadPois = Store.get('showPoi')
     var loadNewPortalsOnly = Store.get('showNewPortalsOnly')
     var loadSpawnpoints = Store.get('showSpawnpoints')
+    var loadScanLocation = Store.get('showScanLocation')
     var loadMinIV = Store.get('remember_text_min_iv')
     var loadMinLevel = Store.get('remember_text_min_level')
     var bigKarp = Boolean(Store.get('showBigKarp'))
@@ -2962,6 +3103,7 @@ function loadRawData() {
             'lastslocs': lastslocs,
             'spawnpoints': loadSpawnpoints,
             'lastspawns': lastspawns,
+            'scanlocations': loadScanLocation,
             'minIV': loadMinIV,
             'prevMinIV': prevMinIV,
             'minLevel': loadMinLevel,
@@ -4981,17 +5123,11 @@ function processPois(i, item) {
     }
     if (!mapData.pois[item['poi_id']]) {
         if (item.marker && item.marker.rangeCircle) {
-            markers.removeLayer(item.marker.rangeCircle)
+            item.marker.rangeCircle.setMap(null)
         }
         if (item.marker) {
-            markers.removeLayer(item.marker)
+            item.marker.setMap(null)
         }
-        item.marker = setupPoiMarker(item)
-        mapData.pois[item['poi_id']] = item
-    } else {
-        // change existing pokestop marker to unlured/lured
-        var item2 = mapData.pois[item['poi_id']]
-        markers.removeLayer(item2.marker)
         item.marker = setupPoiMarker(item)
         mapData.pois[item['poi_id']] = item
     }
@@ -5293,6 +5429,13 @@ function processSpawnpoints(i, item) {
     }
 }
 
+function processScanlocation(i, item) {
+    if (!Store.get('showScanLocation')) {
+        return false
+    }
+    setupScanLocationMarker(item)
+}
+
 function updateSpawnPoints() {
     if (!Store.get('showSpawnpoints')) {
         return false
@@ -5301,8 +5444,10 @@ function updateSpawnPoints() {
     $.each(mapData.spawnpoints, function (key, value) {
         if (map.getBounds().contains(value.marker.getLatLng())) {
             var color = ''
-            if (value['time'] > 0) {
+            if (value['time'] > 1800) {
                 color = 'green'
+            } else if (value['time'] > 0) {
+                color = 'lightgreen'
             } else {
                 color = 'red'
             }
@@ -5318,28 +5463,27 @@ function updateMap() {
         lng: position.lng
     })
     // lets try and get the s2 cell id in the middle
-    if (mapType !== 'rdm') {
-        var s2CellCenter = S2.keyToId(S2.latLngToKey(position.lat, position.lng, 10))
-        if ((s2CellCenter) && (String(s2CellCenter) !== $('#currentWeather').data('current-cell')) && (map.getZoom() > 13)) {
-            loadWeatherCellData(s2CellCenter).done(function (cellWeather) {
-                var currentWeather = cellWeather.weather
-                var currentCell = $('#currentWeather').data('current-cell')
-                if ((currentWeather) && (currentCell !== currentWeather.s2_cell_id)) {
-                    $('#currentWeather').data('current-cell', currentWeather.s2_cell_id)
-                    $('#currentWeather').html('<img src="static/weather/' + currentWeather.condition + '.png" alt="" height="55px"">')
-                } else if (!currentWeather) {
-                    $('#currentWeather').data('current-cell', '')
-                    $('#currentWeather').html('')
-                }
-            })
-        }
+    var s2CellCenter = S2.keyToId(S2.latLngToKey(position.lat, position.lng, 10))
+    if ((s2CellCenter) && (String(s2CellCenter) !== $('#currentWeather').data('current-cell')) && (map.getZoom() > 13)) {
+        loadWeatherCellData(s2CellCenter).done(function (cellWeather) {
+            var currentWeather = cellWeather.weather
+            var currentCell = $('#currentWeather').data('current-cell')
+            if ((currentWeather) && (currentCell !== currentWeather.s2_cell_id)) {
+                $('#currentWeather').data('current-cell', currentWeather.s2_cell_id)
+                $('#currentWeather').html('<img src="static/weather/' + currentWeather.condition + '.png" alt="" height="55px"">')
+            } else if (!currentWeather) {
+                $('#currentWeather').data('current-cell', '')
+                $('#currentWeather').html('')
+            }
+        })
     }
-
+    liveScanGroup.clearLayers()
     loadRawData().done(function (result) {
         $.each(result.pokemons, processPokemons)
         $.each(result.pokestops, processPokestops)
         $.each(result.gyms, processGyms)
         $.each(result.spawnpoints, processSpawnpoints)
+        $.each(result.scanlocations, processScanlocation)
         $.each(result.nests, processNests)
         $.each(result.communities, processCommunities)
         $.each(result.portals, processPortals)
@@ -5426,27 +5570,21 @@ function updateS2Overlay() {
     if ((Store.get('showCells'))) {
         if (Store.get('showExCells') && (map.getZoom() > 10)) {
             exLayerGroup.clearLayers()
-            showS2Cells(13, {color: 'red', weight: 6, dashOffset: '8'})
+            showS2Cells(13, {color: 'black', weight: 5, dashOffset: '8', dashArray: '2 6'})
         } else if (Store.get('showExCells') && (map.getZoom() <= 10)) {
             exLayerGroup.clearLayers()
-            toastr['error'](i8ln('Zoom in more to show them.'), i8ln('EX trigger cells are currently hidden'))
-            toastr.options = toastrOptions
-        }
-        if (Store.get('showGymCells') && (map.getZoom() > 11)) {
-            gymLayerGroup.clearLayers()
-            showS2Cells(14, {color: 'green', weight: 4, dashOffset: '4'})
-        } else if (Store.get('showGymCells') && (map.getZoom() <= 11)) {
-            gymLayerGroup.clearLayers()
-            toastr['error'](i8ln('Zoom in more to show them.'), i8ln('Gym cells are currently hidden'))
-            toastr.options = toastrOptions
         }
         if (Store.get('showStopCells') && (map.getZoom() > 14)) {
             stopLayerGroup.clearLayers()
-            showS2Cells(17, {color: 'blue'})
+            showS2Cells(17, {color: 'black'})
         } else if (Store.get('showStopCells') && (map.getZoom() <= 14)) {
             stopLayerGroup.clearLayers()
-            toastr['error'](i8ln('Zoom in more to show them.'), i8ln('Pokéstop cells are currently hidden'))
-            toastr.options = toastrOptions
+        }
+        if (Store.get('showGymCells') && (map.getZoom() > 11)) {
+            gymLayerGroup.clearLayers()
+            showS2Cells(14, {color: 'black', weight: 3, dashOffset: '4', dashArray: '2 6'})
+        } else if (Store.get('showGymCells') && (map.getZoom() <= 11)) {
+            gymLayerGroup.clearLayers()
         }
     }
 }
@@ -5454,12 +5592,18 @@ function updateS2Overlay() {
 function drawWeatherOverlay(weather) {
     if (weather) {
         $.each(weather, function (idx, item) {
+            if (map.getZoom() <= 13) {
+                $.each(weatherMarkers, function (index, marker) {
+                    markers.addLayer(marker)
+                })
+            }
             weatherArray.push(S2.idToCornerLatLngs(item.s2_cell_id))
             var poly = L.polygon(weatherArray, {
                 color: weatherColors[item.condition],
                 opacity: 1,
                 weight: 1,
-                fillOpacity: 0
+                fillOpacity: 0.1,
+                fillColor: weatherColors[item.condition]
             })
             var bounds = new L.LatLngBounds()
             var i, center
@@ -5469,9 +5613,9 @@ function drawWeatherOverlay(weather) {
             }
             center = bounds.getCenter()
             var icon = L.icon({
-                iconSize: [30, 30],
-                iconAnchor: [15, 15],
-                iconUrl: 'static/weather/i-' + item.condition + '.png'
+                iconSize: [25, 25],
+                iconAnchor: [13, 13],
+                iconUrl: 'static/weather/a-' + item.condition + '.png'
             })
             var marker = L.marker([center.lat, center.lng], {icon})
             weatherPolys.push(poly)
@@ -6650,13 +6794,13 @@ $(function () {
         if (this.checked) {
             wrapper.show(options)
             if (Store.get('showExCells')) {
-                showS2Cells(13, {color: 'red', weight: 6, dashOffset: '8'})
+                showS2Cells(13, {color: 'black', weight: 5, dashOffset: '8', dashArray: '2 6'})
             }
             if (Store.get('showGymCells')) {
-                showS2Cells(14, {color: 'green', weight: 4, dashOffset: '4'})
+                showS2Cells(14, {color: 'black', weight: 3, dashOffset: '4', dashArray: '2 6'})
             }
             if (Store.get('showStopCells')) {
-                showS2Cells(17, {color: 'blue'})
+                showS2Cells(17, {color: 'black'})
             }
         } else {
             wrapper.hide(options)
@@ -6670,7 +6814,7 @@ $(function () {
     $('#s2-level13-switch').change(function () {
         Store.set('showExCells', this.checked)
         if (this.checked) {
-            showS2Cells(13, {color: 'red', weight: 6, dashOffset: '8'})
+            showS2Cells(13, {color: 'black', weight: 5, dashOffset: '8', dashArray: '2 6'})
         } else {
             exLayerGroup.clearLayers()
         }
@@ -6679,7 +6823,7 @@ $(function () {
     $('#s2-level14-switch').change(function () {
         Store.set('showGymCells', this.checked)
         if (this.checked) {
-            showS2Cells(14, {color: 'green', weight: 4, dashOffset: '4'})
+            showS2Cells(14, {color: 'black', weight: 3, dashOffset: '4', dashArray: '2 6'})
         } else {
             gymLayerGroup.clearLayers()
         }
@@ -6688,7 +6832,7 @@ $(function () {
     $('#s2-level17-switch').change(function () {
         Store.set('showStopCells', this.checked)
         if (this.checked) {
-            showS2Cells(17, {color: 'blue'})
+            showS2Cells(17, {color: 'black'})
         } else {
             stopLayerGroup.clearLayers()
         }
@@ -6729,7 +6873,13 @@ $(function () {
             scanAreaGroup.clearLayers()
         }
     })
-
+    $('#scan-location-switch').change(function () {
+        Store.set('showScanLocation', this.checked)
+        if (this.checked) {
+        } else {
+            liveScanGroup.clearLayers()
+        }
+    })
     $('#nest-polygon-switch').change(function () {
         Store.set('showNestPolygon', this.checked)
         if (this.checked) {
