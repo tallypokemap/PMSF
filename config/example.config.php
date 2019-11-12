@@ -297,7 +297,7 @@ $iconRepos = [["Standard","$iconRepository"],                                   
 
 $noMapStyle = false;
 $mapStyle = 'openstreetmap';                                        // openstreetmap, darkmatter, styleblackandwhite, styletopo, stylesatellite, stylewikipedia
-
+$customTileURL '';
 $noDirectionProvider = false;
 $directionProvider = 'google';                                      // google, waze, apple, bing, google_pin
 
